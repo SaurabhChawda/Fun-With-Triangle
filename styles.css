@@ -1,0 +1,102 @@
+/* Universal Css*/
+:root{
+  --primary-color: #001affa6;
+}
+body{
+  margin:auto
+}
+header{
+  background-color: var(--primary-color);
+  color:white;
+  padding:0.5% 0.5%;
+  margin-top: -1rem;
+  font-size:100%;
+}
+nav{
+  text-align: right;
+  font-size:20px;
+  padding:1%;
+  word-spacing:1rem
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+
+/*All About Quiz Css*/
+.Sub-Header-Quiz{
+  max-width: max-content;
+  background-color: red;
+  margin:1rem auto;
+  padding:1% 1%;
+  border-radius: 1rem;
+  color:white;
+  font-weight: 100%;
+  width:80%
+}
+.Container-Quiz{
+  text-align:center;
+  border-radius:5px;
+  
+}
+.Question-Quiz{
+  text-align: left;
+  margin:1% 8%;
+  border-style:groove;
+  border-color:gray;
+  padding:0.5rem 0.5rem;
+  border-radius:0.5rem;
+  background-color: var(--primary-color);
+  color:white
+}
+.click-Quiz{
+  margin:1% 10%;
+  border-style: solid;
+  border-color:gray;
+  padding:1rem 1rem;
+  border-radius:0.5rem;
+  background-color:red;
+  color:white;
+  font-weight: 900;
+  font-size: 100%;
+}
+/* CSS for Angle,Hypotenuse,Area */
+.Container-QAHA{
+  display: block;
+  max-width: max-content;
+  margin: 2rem auto;
+  text-align:center;
+  padding:1rem 1rem;
+  border-style:solid;
+  border-radius: 1rem;
+}
+.Sub-Header-QAHA{
+  margin:1rem auto;
+  background-color: var(--primary-color);
+  padding:0.5rem 0.5rem;
+  border-radius:0.5rem 0.5rem;
+  align-content: center;
+}
+.Input-Label-QAHA{
+  margin:1rem auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Input-QAHA{
+   max-width:100%;
+   margin:0.5rem auto;
+   padding:0.5rem 0.5rem;
+   border-radius: 0.5rem 0.5rem ;
+   display: block;
+}
+.Click-QAHA{
+  border-style: solid;
+  border-color:gray;
+  padding:0.5rem 0.5rem;
+  border-radius:0.5rem;
+  background-color:red;
+  color:white;
+  font-weight: 900;
+  font-size: 100%; 
+  margin: 1rem auto;
+}
