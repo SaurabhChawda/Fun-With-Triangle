@@ -1,4 +1,4 @@
-var InputAOT = document.querySelectorAll("#Input-QAHA");
+var InputAOT = document.querySelectorAll(".Input-QAHA");
 var ClickAOT = document.querySelector("#Click-AOT");
 var OutputAOT = document.querySelector(".Output-AOT");
 
@@ -10,7 +10,11 @@ function AllAngles(angle1, angle2, angle3) {
 }
 
 function CheckTriangle() {
-  var sum = AllAngles( Number(InputAOT[0].value), Number(InputAOT[1].value), Number(InputAOT[2].value) );
+  var Angle1 = Number(InputAOT[0].value);
+  var Angle2 = Number(InputAOT[1].value);
+  var Angle3 = Number(InputAOT[2].value);
+ if(Angle1>0 && Angle2>0 && Angle3>0){
+  var sum = AllAngles(Angle1, Angle2, Angle3);
   if (sum === 180) {
     console.log("This is a Triangle!");
     OutputAOT.innerText = "This is a Triangle!";
@@ -19,5 +23,7 @@ function CheckTriangle() {
     OutputAOT.innerText = "This is not a Triangle!";
   }
 }
-
-
+else{
+  OutputAOT.innerText = "Please Enter a Valid Value!";
+}
+}
